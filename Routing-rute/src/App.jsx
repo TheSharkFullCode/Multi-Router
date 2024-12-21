@@ -1,6 +1,7 @@
 
 import './App.css'
 import ComponentsReyes from './componets/components/ComponentsReyes'
+import ListItems from './componets/components/ListItems'
 import ComponetsButtons from './componets/ComponetsButtons'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <ComponetsButtons />
         <ComponentsReyes></ComponentsReyes>
             
+        <ListItems></ListItems>
       </div>
      
     

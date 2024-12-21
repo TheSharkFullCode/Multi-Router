@@ -14,7 +14,8 @@ function MysImg({rutaImg,Reyes}) {
                         <div className='imgreyes' >
 
                          <img src={imgs} alt="" className='imagenreyes'/> 
-                         <span>{Reyes[index]?.nombre}</span>
+                         <span>{Reyes[index]?.nombre}</span> <br /> <br />
+                         <span>{Reyes[index]?.precio}</span>
                         </div>
                   </div>
 
